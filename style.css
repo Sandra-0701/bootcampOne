@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap');
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    background-color: aliceblue;
+    
+}
+.btn:hover{
+    animation-name: rotate;
+    animation-duration: 2sec;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
